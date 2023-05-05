@@ -1,0 +1,25 @@
+body{
+/* font-family: Arial, Helvetica, sans-serif; */
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Playfair Display', serif;
+background-color:thistle;
+color: white;
+}
+
+h1{
+  font-size: 90pt;
+  margin-bottom: 0px;
+  margin-top: 300px;
+}
+
+a:hover {
+  color:gray;
+  background-color: transparent;
+  text-decoration: none;
+  }
+
+  a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    }

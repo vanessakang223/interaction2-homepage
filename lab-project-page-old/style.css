@@ -1,0 +1,125 @@
+body{
+/* font-family: Arial, Helvetica, sans-serif; */
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Playfair Display', serif;
+color: white;
+}
+
+h1{
+  font-size: 70pt;
+  margin-bottom: 0px;
+  color: black;
+  margin-top: 0;
+  font-weight: normal;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none; 
+  color: black; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.spacingabovelab{
+  margin-top: 27vh;
+}
+
+ul{
+  padding-left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+    color: black;
+  
+}
+a:hover {
+  color:rgb(176, 171, 171);
+  background-color: transparent;
+  text-decoration: none;
+  }
+
+  .circle {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border-radius: 50%;
+    transition: transform .2s;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+    margin-left: 12vw;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .circle2 {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    transition: transform .2s;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+    float: right;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .circle3 {
+    width: 200px;
+    transition: transform .2s;
+    height: 200px;
+    line-height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .circle4 {
+    width: 200px;
+    height: 200px;
+    transition: transform .2s;
+    line-height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    margin-right: 2vh;
+    margin-left: 17vw;
+  }
+
+  .zoom:hover {
+  
+    transform: scale(1.1); 
+  }
+
+  .zoom {
+    /* padding: 50px; */
+    /* background-color: green; */
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+  

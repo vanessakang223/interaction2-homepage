@@ -1,0 +1,70 @@
+body{
+/* font-family: Arial, Helvetica, sans-serif; */
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Playfair Display', serif;
+color: black;
+}
+
+h1{
+  font-size: 90pt;
+  margin-bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  margin-top: 300px;
+  font-weight: normal;
+}
+
+a:hover {
+  color:gray;
+  background-color: transparent;
+  text-decoration: none;
+  }
+
+  a{
+    text-decoration: none;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: black;
+    }
+    
+    p{
+      font-size: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      text-transform: uppercase;
+      color: black;
+      writing-mode: vertical-rl;
+text-orientation: mixed;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      padding: 20px;
+      font-size: 12px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    img{
+      margin-top: 20vh;
+      position: relative;
+      
+    }
+
+  
+    .zoom:hover {
+  
+      transform: scale(1.1); 
+    }
+  
+    .zoom {
+      /* padding: 50px; */
+      /* background-color: green; */
+      transition: transform .1s; /* Animation */
+      margin: 0 auto;
+    }
+    
