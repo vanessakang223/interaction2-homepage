@@ -1,0 +1,100 @@
+/* Just to make the demo easier to work with. */
+
+:root {
+	--spacing: 1em;
+}
+
+
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight: bold;
+	background-image: linear-gradient( rgb(209, 241, 247),rgb(246, 203, 203));
+    color: #0c250c;
+}
+
+h1, h2 {
+	font-weight:normal;
+	/* text-align:center; */
+}
+
+#collection {
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+.gray {
+	background-color:#c5c5c5;
+}
+
+.black {
+	background-color:black;
+	color:white;
+}
+
+.cinnamon {
+	background-color:#af402c;
+}
+
+.indifferent {
+	border: 2px dashed;
+}
+
+.dot-container{
+	display: flex;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.activity-title{
+	position: absolute;
+	left: 2rem;
+	top: 2rem;
+	color: white;
+	font-size: 1rem;
+	display: none;
+}
+
+.dot-container:hover .activity-title{
+	display: block;
+}
+
+.row{
+	margin: 0;
+	padding: 0;
+	display: grid;
+	width: 100vw;
+	grid-template-columns: 25vw 25vw 25vw 25vw ;
+	outline: black .22vw solid;
+	outline-offset: -.11vw ;
+
+}
+ /* .row p{
+	outline: black .22vw solid;
+	outline-offset: -.11vw ;
+	height: 10vh;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+ } */
+
+tr{
+	height: 7vh;
+}
+
+ table,th,td{
+	border: .1vw solid;
+	/* outline-offset: -.1px; */
+	text-align: center;
+ }
+
+ table{
+	border-collapse: collapse;
+ }
+ td{
+	display: flex;
+	align-items: center;
+justify-content: center;}

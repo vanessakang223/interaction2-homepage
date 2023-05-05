@@ -1,0 +1,106 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 3px;
+}
+.grid-item {
+  background-color:transparent;
+  /* border: 1px solid white; */
+  padding: 10px;
+  font-size: 10px;
+  /* font-family: 'IBM Plex Mono', monospace; */
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(63, 59, 40);
+  border-color: white;
+  border-width: 0.5pt;
+
+}
+
+.flex-item {
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  position: fixed;
+
+}
+p{
+  margin: 3px;
+}
+
+body{
+  background-color:whitesmoke;
+}
+
+a:link {
+  color: rgb(111, 108, 98);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color:rgb(0, 0, 0) ;
+  background-color: transparent;;
+}
+
+a:hover {
+  color:gray;
+  background-color: transparent;
+  ;
+  }
+
+  .colorchange:hover {
+    background-color: rgb(195, 194, 203);
+    }
+      
+    nav a{
+      flex: auto;
+      display: inline-block;
+      text-align: left;
+      position: relative;
+      color: black;
+      margin-left:50px;
+      margin-right: 0px;
+      padding:0px;
+      text-decoration: none;
+      }
+
+      nav{
+        display: flex;
+        background-color: #fff;
+        padding: 10px;
+      }
+    img{
+      width: 75%;
+     
+    }
+.bodytextformatting{
+  font-size: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 10px;
+}
+.heading{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  font-weight: bold;
+  margin-left: 30px; 
+  color: rgb(63, 59, 40);
+}
+.headinglight{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:20px;
+  font-weight: lighter;
+  color: rgb(63, 59, 40);
+}
+.yearheading{
+  font-size: 15vh;
+  position: absolute;
+  line-height: 16vh;
+}
+.top-row{
+  margin-top: vh;
+}
+@media (max-width: 768px) {
+ .heading{
+  font-size: 3rem;
+}
+}

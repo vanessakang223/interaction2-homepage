@@ -1,0 +1,120 @@
+body{
+    font-family: 'Anton', sans-serif;
+    background-color: black;
+    margin-top: 3vh;
+}
+
+.lab-text{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* font-weight: 700; */
+    font-size: 200px;
+    line-height: 80px;
+    letter-spacing: 0em;
+    margin: 0;
+    margin-left: 2vw;
+}
+
+.studio-text-spacing{
+    color: black;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* font-weight: 700; */
+    font-size: 200px;
+    line-height: 80px;
+    letter-spacing: 0em;
+    margin: 0;
+    margin-left: 2vw;
+    margin-top: 75vh;
+}
+
+.top-row-text{
+  position: absolute;
+  width: 612px;
+  height: 23px;
+  right: 20px;
+  top: 632px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: white;
+
+}
+.middle-row-text{
+  position: absolute;
+  width: 612px;
+  height: 23px;
+  right: 20px;
+  top: 645px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: white;
+}
+.bottom-row-text{
+  position: absolute;
+  width: 612px;
+  height: 23px;
+  right: 20px;
+  top: 658px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 17px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: white;
+}
+
+a{
+    text-decoration: none; 
+    color: white;
+    /* position: absolute; */
+}
+
+a:hover {
+    /* color:rgb(6, 36, 234); */
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .tilt{
+    transform: rotate(-20deg);
+    float: right;
+  }
+
+  .dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
