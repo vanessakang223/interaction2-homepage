@@ -11,9 +11,19 @@ function renderItems(collection) {
       ticketImg.src = item.img
       let collectionlist=document.querySelector(".collection")
       collectionlist.appendChild (ticketImg)
+       
+    ticketImg.style.left = (5+75*Math.random())+'%';
+    ticketImg.style.top=(5+150*Math.random()) +'%';//change the scale of where the emoji show up
+    ti.style.display = "block";
+
     })
       
   }
+
+  let rockaway = document.querySelector('#rockaway');
+  let sunsetPark = document.querySelector('#sunsetPark');
+  let east90thSt = document.querySelector('#east90thSt');
+  let brooklynNavyYard = document.querySelector('#brooklynNavyYard');
 
    //create buttons for all filters [stops]
 function filterItems(collection) {
@@ -23,20 +33,23 @@ function filterItems(collection) {
       // filterButtons.appendChild(button);
       showItem = document.querySelector('.showItem');
       let ticketImg = document.createElement("img");
+      ticketImg.classList.add("photo")
       //add event listener to all the buttons 
       let filteredItem;
-      let rockaway = document.querySelector('#rockaway');
-      let sunsetPark = document.querySelector('#sunsetPark');
-      let east90thSt = document.querySelector('#east90thSt');
-      let brooklynNavyYard = document.querySelector('#brooklynNavyYard');
 
       rockaway.addEventListener("click", function(){
             if(item.stop === "Rockaway"){
+              // clearPhotos();
               filteredItem = item.img;
               ticketImg.src = filteredItem;
+              
             }
           })
+
+
+
       sunsetPark.addEventListener("click", function(){
+          clearPhotos();
             if(item.stop === "Sunset Park/BAT"){
               filteredItem = item.img;
               ticketImg.src = filteredItem;
@@ -44,6 +57,7 @@ function filterItems(collection) {
       })
       east90thSt.addEventListener("click", function(){
         if(item.stop === "East 90th St"){
+          clearPhotos();
           filteredItem = item.img;
           ticketImg.src = filteredItem;
         }
@@ -62,11 +76,30 @@ function filterItems(collection) {
         }
     })
 
+    soundview.addEventListener("click", function(){
+      if(item.stop === "Soundview"){
+        filteredItem = item.img;
+        ticketImg.src = filteredItem;
+      }
+  })
+
+
       
       showItem.appendChild(ticketImg);
       
       
     })
+  }
+
+
+
+  function clearPhotos() {
+    const container = document.querySelector(".collection");
+    // console.log(container);
+    container.innerHTML = "";
+    // while (allPhotos.childNodes.length > 0) {
+    //   allPhotos.removeChild(allPhotos.firstChild);
+    // }
   }
 
 function updateFilteredItems(item){
