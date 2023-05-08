@@ -65,6 +65,7 @@ h1, h2 {
 
 img{
 	width: 17vw;
+	padding-left: 30vw;
 }
 
 .text-formatting{
@@ -72,6 +73,8 @@ img{
 	font-size: 15px;
 	font-weight: 100;
 	line-height: 23px;
+	top:20px;
+	position: absolute;
 }
 
 .showItem{
