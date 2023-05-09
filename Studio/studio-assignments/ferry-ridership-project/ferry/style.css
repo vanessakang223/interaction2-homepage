@@ -65,6 +65,7 @@ h1, h2 {
 
 img{
 	width: 17vw;
+	position: absolute;
 }
 
 .text-formatting{

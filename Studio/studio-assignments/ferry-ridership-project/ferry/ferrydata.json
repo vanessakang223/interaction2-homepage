@@ -1,6 +1,6 @@
 [
     {
-        "date": "2021-01-07T05:00:00.000Z",
+        "date": "2021-01-07",
         "route": "RW",
         "stop": "Rockaway",
         "boardings": 20,
@@ -10,7 +10,7 @@
         "img":"./assets/images/ferry-ticket-1.png"
     },
     {
-        "date": "2021-01-07T05:00:00.000Z",
+        "date": "2021-01-07",
         "route": "RW",
         "stop": "Sunset Park/BAT",
         "boardings": 3,
