@@ -12,6 +12,7 @@ body {
 	font-weight: bold;
 	background-color: #15252d;
     color: white;
+	margin-top: -10px;
 }
 
 .alltext{
@@ -34,21 +35,9 @@ h2{
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
-	font-size:28px;
+	font-size:22px;
 	margin-top: -115px;
 	
-}
-
-@keyframes colorChange {
-  0% {
-    color: black;
-  }
-  50% {
-    color: grey;
-  }
-  100% {
-    color: white;
-  }
 }
 
 p{
@@ -107,13 +96,12 @@ img{
 	border-color: #f1f1f1;
 	
  }
-
+/* 
  a{
 	color: white;
 	text-decoration: none;
-	padding-left: 40vw;
-	padding-top: 180vh;
- }
+	font-size: medium;
+ } */
 
  
   button {
@@ -151,4 +139,6 @@ img{
 	margin-left:230px;
 	margin-top: -369px;
 	font-family: 'Roboto Mono', monospace;
+	position: sticky;
   }
+

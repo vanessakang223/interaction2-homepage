@@ -34,7 +34,7 @@ function filterItems(collection) {
     let ticketImg = document.createElement("img");
     ticketImg.classList.add("image");
     ticketImg.src = item.img;
-    ticketImg.style.left = (3+85*Math.random())+'%';
+    ticketImg.style.left = (22+75*Math.random())+'%';
     ticketImg.style.top=(5+300*Math.random()) +'%';
     showItem.appendChild(ticketImg);
     
