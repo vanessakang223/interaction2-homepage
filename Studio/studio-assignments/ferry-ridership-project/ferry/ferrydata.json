@@ -7,7 +7,7 @@
         "typeday": "Weekday",
         "ferryNo": 840,
         "no": 1,
-        "img":"./assets/images/ferry-ticket-1.png"
+        "img":"./assets/images/rockawayn.png"
     },
     {
         "date": "2021-01-07",
@@ -17,7 +17,7 @@
         "typeday": "Weekday",
         "ferryNo": "8873D",
         "no": 2,
-        "img":"./assets/images/ferry-ticket-2.png"
+        "img":"./assets/images/sunset.png"
     },
     {
         "date": "2021-01-07",
@@ -27,7 +27,7 @@
         "typeday": "Weekday",
         "ferryNo": 8014,
         "no": 3,
-        "img":"./assets/images/ferry-ticket-3.png"
+        "img":"./assets/images/e90.png"
     },
     {
         "date": "2021-01-07",
@@ -37,7 +37,7 @@
         "typeday": "Weekday",
         "ferryNo": 841,
         "no": 4,
-        "img":"./assets/images/ferry-ticket-4.png"
+        "img":"./assets/images/bny.png"
     },
     {
         "date": "2021-01-07",
@@ -47,7 +47,7 @@
         "typeday": "Weekday",
         "ferryNo": 8007,
         "no": 5,
-        "img":"./assets/images/ferry-ticket-5.png"
+        "img": "./assets/images/e34n.png"
     },
     {
         "date": "2021-01-07",
@@ -65,7 +65,8 @@
         "boardings": 1,
         "typeday": "Weekday",
         "ferryNo": 8008,
-        "no": 7
+        "no": 7,
+        "img":"./assets/images/LIC.png"
     },
     {
         "date": "2021-02-07",
@@ -74,7 +75,8 @@
         "boardings": 5,
         "typeday": "Weekday",
         "ferryNo": "8990D",
-        "no": 8
+        "no": 8,
+        "img":"./assets/images/bayridge.png"
     },
     {
         "date": "2021-02-07",
@@ -110,7 +112,8 @@
         "boardings": 6,
         "typeday": "Weekday",
         "ferryNo": 855,
-        "no": 12
+        "no": 12,
+        "img":"./assets/images/sunset.png"
     },
     {
         "date": "2021-02-07",
@@ -137,7 +140,8 @@
         "boardings": 0,
         "typeday": "Weekday",
         "ferryNo": 844,
-        "no": 15
+        "no": 15,
+        "img":"./assets/images/bayridge.png"
     },
     {
         "date": "2021-02-07",
@@ -182,7 +186,8 @@
         "boardings": 2,
         "typeday": "Weekday",
         "ferryNo": 8002,
-        "no": 20
+        "no": 20,
+        "img": "./assets/images/e34n.png"
     },
     {
         "date": "2021-03-07",
@@ -227,7 +232,8 @@
         "boardings": 24,
         "typeday": "Weekend",
         "ferryNo": 899,
-        "no": 25
+        "no": 25,
+        "img": "./assets/images/e34n.png"
     },
     {
         "date": "2021-03-07",
@@ -300,7 +306,7 @@
         "typeday": "Weekend",
         "ferryNo": "888A",
         "no": 33,
-        "img":"./assets/images/ferry-ticket-1.png"
+        "img":"./assets/images/rockaway.png"
     },
     {
         "date": "2021-03-07",
@@ -309,7 +315,8 @@
         "boardings": 2,
         "typeday": "Weekend",
         "ferryNo": "8834A",
-        "no": 34
+        "no": 34,
+        "img":"./assets/images/sunset.png"
     },
     {
         "date": "2021-03-07",
@@ -328,7 +335,7 @@
         "typeday": "Weekend",
         "ferryNo": 878,
         "no": 36,
-        "img":"./assets/images/ferry-ticket-2.png"
+        "img":"./assets/images/rockaway.png"
     },
     {
         "date": "2021-03-07",
@@ -337,7 +344,8 @@
         "boardings": 1,
         "typeday": "Weekend",
         "ferryNo": "888D",
-        "no": 37
+        "no": 37,
+        "img":"./assets/images/sunset.png"
     },
     {
         "date": "2021-03-07",
@@ -364,7 +372,8 @@
         "boardings": 11,
         "typeday": "Weekend",
         "ferryNo": 813,
-        "no": 40
+        "no": 40,
+        "img":"./assets/images/bayridge.png"
     },
     {
         "date": "2021-03-07",
@@ -382,7 +391,8 @@
         "boardings": 0,
         "typeday": "Weekend",
         "ferryNo": 873,
-        "no": 42
+        "no": 42,
+        "img":"./assets/images/e90.png"
     },
     {
         "date": "2021-04-07",
@@ -400,7 +410,8 @@
         "boardings": 148,
         "typeday": "Weekend",
         "ferryNo": "8947D",
-        "no": 46
+        "no": 46,
+        "img":"./assets/images/astoria.png"
     },
     {
         "date": "2021-04-07",
@@ -409,7 +420,8 @@
         "boardings": 140,
         "typeday": "Weekend",
         "ferryNo": 9863,
-        "no": 47
+        "no": 47,
+        "img":"./assets/images/e90.png"
     },
     {
         "date": "2021-04-07",
@@ -445,7 +457,8 @@
         "boardings": 22,
         "typeday": "Weekend",
         "ferryNo": 862,
-        "no": 51
+        "no": 51,
+        "img":"./assets/images/sunset.png"
     },
     {
         "date": "2021-04-07",
@@ -454,7 +467,8 @@
         "boardings": 75,
         "typeday": "Weekend",
         "ferryNo": 56,
-        "no": 54
+        "no": 54,
+        "img":"./assets/images/sunset.png"
     },
     {
         "date": "2021-04-07",

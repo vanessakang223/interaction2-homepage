@@ -45,14 +45,163 @@ function filterItems(collection) {
           if(item.stop === "Rockaway"){
             ticketImg.style.display = "block";
             ticketImg.style.left = (30+60*Math.random())+'%';
-            ticketImg.style.top=(5+100*Math.random()) +'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
+          }else{
+            ticketImg.style.display = "none";
+
+          }
+        })
+    sunsetPark.addEventListener("click", function(){
+          if(item.stop === "Sunset Park/BAT"){
+            ticketImg.style.display = "block";
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
+          }else{
+            ticketImg.style.display = "none";
+
+          }
+        })    
+    east90thSt.addEventListener("click", function(){
+          if(item.stop === "East 90th St"){
+            ticketImg.style.display = "block";
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
+          }else{
+            ticketImg.style.display = "none";
+
+          }
+        })
+    brooklynNavyYard.addEventListener("click", function(){
+          if(item.stop === "Brooklyn Navy Yard"){
+            ticketImg.style.display = "block";
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
+          }else{
+            ticketImg.style.display = "none";
+
+          }
+        })
+    east34thStreet.addEventListener("click", function(){
+          if(item.stop === "East 34th Street"){
+            ticketImg.style.display = "block";
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
+          }else{
+            ticketImg.style.display = "none";
+
+          }
+        })
+    soundview.addEventListener("click", function(){
+          if(item.stop === "Soundview"){
+            ticketImg.style.display = "block";
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
+          }else{
+            ticketImg.style.display = "none";
+
+          }
+        })
+   longIslandcity.addEventListener("click", function(){
+          if(item.stop === "Long Island City"){
+            ticketImg.style.display = "block";
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
+          }else{
+            ticketImg.style.display = "none";
+
+          }
+        })
+   bayRidge.addEventListener("click", function(){
+          if(item.stop === "Bay Ridge"){
+            ticketImg.style.display = "block";
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
+          }else{
+            ticketImg.style.display = "none";
+
+          }
+        })
+    corlearsHook.addEventListener("click", function(){
+          if(item.stop === "Corlears Hook"){
+            ticketImg.style.display = "block";
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
+          }else{
+            ticketImg.style.display = "none";
+
+          }
+        })
+  Dumbo.addEventListener("click", function(){
+          if(item.stop === "Dumbo/BBP Pier 1"){
+            ticketImg.style.display = "block";
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
+          }else{
+            ticketImg.style.display = "none";
+
+          }
+        })
+  redHook.addEventListener("click", function(){
+          if(item.stop === "Red Hook/Atlantic Basin"){
+            ticketImg.style.display = "block";
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
           }else{
             ticketImg.style.display = "none";
 
           }
         })
 
+  stuyvesantCove.addEventListener("click", function(){
+          if(item.stop === "Stuyvesant Cove"){
+            ticketImg.style.display = "block";
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
+          }else{
+            ticketImg.style.display = "none";
 
+          }
+        })
+huntersPointSouth.addEventListener("click", function(){
+          if(item.stop === "Hunters Point South"){
+            ticketImg.style.display = "block";
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
+          }else{
+            ticketImg.style.display = "none";
+
+          }
+        })
+northWilliamsburg.addEventListener("click", function(){
+          if(item.stop === "North Williamsburg"){
+            ticketImg.style.display = "block";
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
+          }else{
+            ticketImg.style.display = "none";
+
+          }
+        })
+govIslandYankeePier.addEventListener("click", function(){
+          if(item.stop === "Gov. Island/Yankee Pier"){
+            ticketImg.style.display = "block";
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
+          }else{
+            ticketImg.style.display = "none";
+
+          }
+        })
+astoria.addEventListener("click", function(){
+          if(item.stop === "Astoria"){
+            ticketImg.style.display = "block";
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+60*Math.random()) +'%';
+          }else{
+            ticketImg.style.display = "none";
+
+          }
+        })
 //Stops Click Functions 
     sunsetPark.addEventListener("click", function(){
           if(item.stop === "Sunset Park/BAT"){
