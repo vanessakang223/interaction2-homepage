@@ -7,6 +7,18 @@ let rockaway = document.querySelector('#rockaway');
 let sunsetPark = document.querySelector('#sunsetPark');
 let east90thSt = document.querySelector('#east90thSt');
 let brooklynNavyYard = document.querySelector('#brooklynNavyYard');
+let soundview = document.querySelector('#soundview');
+let longIslandcity = document.querySelector('#longIslandcity');
+let bayRidge = document.querySelector('#bayRidge');
+let corlearsHooke = document.querySelector('#corlearsHook');
+let Dumbo = document.querySelector('#Dumbo');
+let redHook = document.querySelector('#redHook');
+let stuyvesantCove = document.querySelector('#stuyvesantCove');
+let huntersPointSouth = document.querySelector('#huntersPointSouth');
+let northWilliamsburg = document.querySelector('#northWilliamsburg');
+let govIslandYankeePier = document.querySelector('#govIslandYankeePier');
+let astoria = document.querySelector('#astoria');
+
 let date20210701 = document.querySelector('#date20210701');
 let date20210702 = document.querySelector('#date20210702');
 let date20210703 = document.querySelector('#date20210703');
@@ -40,7 +52,7 @@ function filterItems(collection) {
         })
 
 
-
+//Stops Click Functions 
     sunsetPark.addEventListener("click", function(){
           if(item.stop === "Sunset Park/BAT"){
             ticketImg.style.display = "block";
@@ -84,16 +96,126 @@ function filterItems(collection) {
     }
 })
 
-rockaway.addEventListener("click", function(){
-  if(item.stop === "Rockaway"){
+longIslandcity.addEventListener("click", function(){
+  if(item.stop === "Long Island City"){
     ticketImg.style.display = "block";
   }else{
     ticketImg.style.display = "none";
 
   }
 })
+
+bayRidge.addEventListener("click", function(){
+  if(item.stop === "Bay Ridge"){
+    ticketImg.style.display = "block";
+  }else{
+    ticketImg.style.display = "none";
+
+  }
+})
+
+corlearsHook.addEventListener("click", function(){
+  if(item.stop === "Corlears Hook"){
+    ticketImg.style.display = "block";
+  }else{
+    ticketImg.style.display = "none";
+
+  }
+})
+
+Dumbo.addEventListener("click", function(){
+  if(item.stop === "Dumbo/BBP Pier 1"){
+    ticketImg.style.display = "block";
+  }else{
+    ticketImg.style.display = "none";
+
+  }
+})
+
+redHook.addEventListener("click", function(){
+  if(item.stop === "Red Hook/Atlantic Basin"){
+    ticketImg.style.display = "block";
+  }else{
+    ticketImg.style.display = "none";
+
+  }
+})
+
+stuyvesantCove.addEventListener("click", function(){
+  if(item.stop === "Stuyvesant Cove"){
+    ticketImg.style.display = "block";
+  }else{
+    ticketImg.style.display = "none";
+
+  }
+})
+
+huntersPointSouth.addEventListener("click", function(){
+  if(item.stop === "Hunters Point South"){
+    ticketImg.style.display = "block";
+  }else{
+    ticketImg.style.display = "none";
+
+  }
+})
+
+northWilliamsburg.addEventListener("click", function(){
+  if(item.stop === "North Williamsburg"){
+    ticketImg.style.display = "block";
+  }else{
+    ticketImg.style.display = "none";
+
+  }
+})
+
+govIslandYankeePier.addEventListener("click", function(){
+  if(item.stop === "Gov. Island/Yankee Pier"){
+    ticketImg.style.display = "block";
+  }else{
+    ticketImg.style.display = "none";
+
+  }
+})
+
+astoria.addEventListener("click", function(){
+  if(item.stop === "Astoria"){
+    ticketImg.style.display = "block";
+  }else{
+    ticketImg.style.display = "none";
+
+  }
+})
+
+//Dates Click Functions 
 date20210701.addEventListener("click", function(){
   if(item.date === "2021-01-07"){
+    ticketImg.style.display = "block";
+  }else{
+    ticketImg.style.display = "none";
+
+  }
+})
+
+date20210702.addEventListener("click", function(){
+  if(item.date === "2021-02-07"){
+    ticketImg.style.display = "block";
+  }else{
+    ticketImg.style.display = "none";
+
+  }
+})
+
+date20210703.addEventListener("click", function(){
+  if(item.date === "2021-03-07"){
+    ticketImg.style.display = "block";
+  }else{
+    ticketImg.style.display = "none";
+
+  }
+})
+
+date20210704.addEventListener("click", function(){
+  if(item.date === "2021-04-07"){
     ticketImg.style.display = "block";
   }else{
     ticketImg.style.display = "none";

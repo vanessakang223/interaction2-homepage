@@ -64,7 +64,7 @@ h1, h2 {
 }
 
 img{
-	width: 17vw;
+	width: 18vw;
 	position: absolute;
 }
 
@@ -80,3 +80,11 @@ img{
 .showItem{
 	top:0;
 }
+  
+  .zoom:hover {
+	transform: scale(7.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+	transition: transform .3s; /* Animation */
+  }
+  p{
+	right:0;
+  }
