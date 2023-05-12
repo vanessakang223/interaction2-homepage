@@ -103,7 +103,8 @@
         "boardings": 7,
         "typeday": "Weekday",
         "ferryNo": "8864D",
-        "no": 11
+        "no": 11,
+        "img":"./assets/images/redhook.png"
     },
     {
         "date": "2021-02-07",
@@ -168,7 +169,8 @@
         "boardings": 1,
         "typeday": "Weekday",
         "ferryNo": 815,
-        "no": 18
+        "no": 18,
+        "img":"./assets/images/stuyv.png"
     },
     {
         "date": "2021-02-07",
@@ -205,7 +207,8 @@
         "boardings": 11,
         "typeday": "Weekend",
         "ferryNo": 8009,
-        "no": 22
+        "no": 22,
+        "img": "./assets/images/nwill.png"
     },
     {
         "date": "2021-03-07",
@@ -251,7 +254,8 @@
         "boardings": 23,
         "typeday": "Weekend",
         "ferryNo": 2508,
-        "no": 27
+        "no": 27,
+        "img": "./assets/images/nwill.png"
     },
     {
         "date": "2021-03-07",
@@ -269,7 +273,8 @@
         "boardings": 0,
         "typeday": "Weekend",
         "ferryNo": "8834D",
-        "no": 29
+        "no": 29,
+        "img":"./assets/images/govisland.png"
     },
     {
         "date": "2021-03-07",
@@ -287,7 +292,8 @@
         "boardings": 0,
         "typeday": "Weekend",
         "ferryNo": "8960D",
-        "no": 31
+        "no": 31,
+        "img":"./assets/images/govisland.png"
     },
     {
         "date": "2021-03-07",
@@ -439,7 +445,8 @@
         "boardings": 91,
         "typeday": "Weekend",
         "ferryNo": "8965D",
-        "no": 49
+        "no": 49,
+        "img": "./assets/images/nwill.png"
     },
     {
         "date": "2021-04-07",
