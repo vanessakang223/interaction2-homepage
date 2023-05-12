@@ -34,17 +34,18 @@ function filterItems(collection) {
     let ticketImg = document.createElement("img");
     ticketImg.classList.add("image");
     ticketImg.src = item.img;
-    ticketImg.style.left = (20+75*Math.random())+'%';
+    ticketImg.style.left = (3+85*Math.random())+'%';
     ticketImg.style.top=(5+300*Math.random()) +'%';
     showItem.appendChild(ticketImg);
-    //add event listener to all the buttons 
+    
+    //add event listener to all the buttons -->gives it random position
     // let filteredItem;
 
     rockaway.addEventListener("click", function(){
           if(item.stop === "Rockaway"){
             ticketImg.style.display = "block";
-            ticketImg.style.left = (20+75*Math.random())+'%';
-            ticketImg.style.top=(5+80*Math.random()) +'%';
+            ticketImg.style.left = (30+60*Math.random())+'%';
+            ticketImg.style.top=(5+100*Math.random()) +'%';
           }else{
             ticketImg.style.display = "none";
 
