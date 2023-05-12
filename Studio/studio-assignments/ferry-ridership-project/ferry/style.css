@@ -4,8 +4,6 @@
 	--spacing: 1em;
 }
 
-
-
 body {
 	/* font-family: 'Times New Roman', Times, serif; */
 	font-family: 'Lora', serif;
@@ -14,53 +12,15 @@ body {
 	background-color: #15252d;
     color: white;
 }
-
-h1, h2 {
-	font-weight:normal;
-	/* text-align:center; */
+h1{
+	padding-left: 8px;	
+	font-family: 'Lora', serif;
+	font-size:17px;
+	font-weight: 900;
 }
 
-#collection {
-	display: flex;
-	flex-wrap:wrap;
-	justify-content: center;
-}
-
-.gray {
-	background-color:#c5c5c5;
-}
-
-.black {
-	background-color:black;
-	color:white;
-}
-
-.cinnamon {
-	background-color:#af402c;
-}
-
-.indifferent {
-	border: 2px dashed;
-}
-
-.dot-container{
-	display: flex;
-	position: fixed;
-	left: 0;
-	top: 0;
-}
-
-.activity-title{
-	position: absolute;
-	left: 2rem;
-	top: 2rem;
-	color: white;
-	font-size: 1rem;
-	display: none;
-}
-
-.dot-container:hover .activity-title{
-	display: block;
+p{
+	padding-left: 8px;	
 }
 
 img{
@@ -72,7 +32,7 @@ img{
 	/* font-family: 'Times New Roman', Times, serif; */
 	font-size: 15px;
 	font-weight: 100;
-	line-height: 23px;
+	line-height: 21px;
 	top:20px;
 	position: absolute;
 }
@@ -85,6 +45,51 @@ img{
 	transform: scale(7.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 	transition: transform .3s; /* Animation */
   }
-  p{
-	right:0;
+
+  .stoptextfurtherin{
+	padding-left: 8px;
+	text-decoration: underline;
+	font-weight: bolder;
+ }
+
+ .datetextfurtherin{
+	padding-left: 8px;
+	text-decoration: underline;
+	font-weight: bolder;
+	padding-top: -90px;
+ }
+ 
+  button {
+	position: relative;
+	padding: 2px -20px;
+	font-family: 'Lora', serif;
+	font-size:13px;
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	color: white;
+  }
+  
+  button::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: -30px; /* Adjust this value to change the distance of the circle from the button */
+	transform: translateY(-50%);
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: transparent;
+	/* border: 2px solid #f1f1f1; */
+	transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  button:hover::after {
+	background-color: #f1f1f1;
+	border-color: #f1f1f1;
+  }
+
+  .alldatetext{
+	margin-left:200px;
+	margin-top: -407px;
   }
