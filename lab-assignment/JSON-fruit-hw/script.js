@@ -44,5 +44,3 @@ function renderItems(collection) {
     });
 
      
-
-  

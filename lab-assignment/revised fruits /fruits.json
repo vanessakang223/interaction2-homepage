@@ -4,7 +4,7 @@
         "colorOutside": "yellow ",
         "size": "medium",
         "flavor": "sweet ",
-        "img":"./images/pineapple.jpeg"
+        "img":"./assets/pineapple.jpeg"
     },
     {
         "fruits": "banana",
