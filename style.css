@@ -10,18 +10,19 @@ body{
     text-transform: uppercase;
     text-decoration: none;
     /* font-weight: 700; */
-    font-size: 70px;
+    font-size: 100px;
     line-height: 80px;
     letter-spacing: 0em;
-    margin-top: 70vh;
+    margin-top: 66vh;
     margin-left: 2vw;
+    margin-bottom:1vw ;
 }
 .studio-text{
   font-family: 'Anton', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   /* font-weight: 700; */
-  font-size: 70px;
+  font-size: 100px;
   line-height: 80px;
   letter-spacing: 0em;
   margin-left: 2vw;
