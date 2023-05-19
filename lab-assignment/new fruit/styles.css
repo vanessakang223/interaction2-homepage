@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 90px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+  .gallery-container {
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  
+  .gallery {
+    display: inline-flex;
+  }
+  
+  .gallery img {
+    width: 530px;
+    height: 450px;
+    margin: 10px;
+    cursor: pointer;
+    object-fit: cover;
+    filter: blur(5px);
+    transition: filter 0.3s;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .popup.show {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+
+  
+  .gallery img.active {
+    filter: none;
+  }
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .popup.show {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .gallery img:hover {
+    filter: none;
+  }
+  
+ 
+  

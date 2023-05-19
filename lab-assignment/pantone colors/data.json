@@ -1,0 +1,44 @@
+{
+  "flavors": [
+    {
+      "name": "Plain",
+      "category": "savory",
+      "image": "images/plain.jpg"
+    },
+    {
+      "name": "Strawberry",
+      "category": "sweet",
+      "image": "images/strawberry.jpg"
+    },
+    {
+      "name": "Everything",
+      "category": "savory",
+      "image": "images/everything.jpg"
+    },
+    {
+      "name": "Garlic Herb",
+      "category": "savory",
+      "image": "images/garlic-herb.jpg"
+    },
+    {
+      "name": "Blueberry",
+      "category": "sweet",
+      "image": "images/blueberry.jpg"
+    },
+    {
+      "name": "Cheddar Jalapeno",
+      "category": "savory",
+      "image": "images/cheddar-jalapeno.jpg"
+    },
+    {
+      "name": "Cinnamon Raisin",
+      "category": "sweet",
+      "image": "images/cinnamon-raisin.jpg"
+    },
+    {
+      "name": "Smoked Salmon",
+      "category": "savory",
+      "image": "images/smoked-salmon.jpg"
+    }
+  ]
+}

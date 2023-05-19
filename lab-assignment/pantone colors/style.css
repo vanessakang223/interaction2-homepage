@@ -1,0 +1,47 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+#category-filter {
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.cupcake-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cupcake {
+  margin: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cupcake img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cupcake h3 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+  margin-top: 10px;
+}

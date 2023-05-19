@@ -1,0 +1,113 @@
+{
+  "fruits": [
+    {
+      "name": "Apple",
+      "color": "Red",
+      "size": "Medium",
+      "image": "apple.png"
+    },
+    {
+      "name": "Banana",
+      "color": "Yellow",
+      "size": "Medium",
+      "image": "banana.jpg"
+    },
+    {
+      "name": "Orange",
+      "color": "Orange",
+      "size": "Medium",
+      "image": "orange.jpeg"
+    },
+      {
+      "name": "Strawberry",
+      "color": "Red",
+      "size": "Small",
+      "image": "strawberry.jpeg"
+    },
+    {
+      "name": "Watermelon",
+      "color": "Green",
+      "size": "Large",
+      "image": "watermelon.jpeg"
+    },
+    {
+      "name": "Mango",
+      "color": "Yellow",
+      "size": "Medium",
+      "image": "mango.png"
+    },
+
+    {
+      "name": "Kiwi",
+      "image": "kiwi.jpeg",
+      "color": "Brown",
+      "size": "Small"
+    },
+    {
+      "name": "Peach",
+      "image": "peach.jpeg",
+      "color": "Orange",
+      "size": "Medium"
+    },
+    {
+      "name": "Raspberry",
+      "image": "raspberry.jpeg",
+      "color": "Red",
+      "size": "Small"
+    },
+    {
+      "name": "Passion Fruit",
+      "image": "passionfruit.jpeg",
+      "color": "Purple",
+      "size": "Small"
+    },
+    {
+      "name": "Cantaloupe",
+      "image": "cantaloup.jpeg",
+      "color": "Orange",
+      "size": "Large"
+    },
+    {
+      "name": "Dragon Fruit",
+      "image": "dragonfruit.jpeg",
+      "color": "Pink",
+      "size": "Medium"
+    },
+    {
+      "name": "Blackberry",
+      "image": "blackberry.jpeg",
+      "color": "Black",
+      "size": "Small"
+    },
+    {
+      "name": "Coconut",
+      "image": "coconut.jpeg",
+      "color": "Brown",
+      "size": "Large"
+    },
+    {
+      "name": "Pomegranate",
+      "image": "pomegranate.jpeg",
+      "color": "Red",
+      "size": "Medium"
+    },
+    {
+      "name": "Lemon",
+      "image": "lemon.jpeg",
+      "color": "Yellow",
+      "size": "Small"
+    },
+    {
+      "name": "Cherry",
+      "image": "cherry.jpeg",
+      "color": "Red",
+      "size": "Small"
+    },
+    {
+      "name": "Apricot",
+      "image": "apricot.jpeg",
+      "color": "Orange",
+      "size": "Medium"
+    }
+  ]
+}
