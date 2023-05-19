@@ -4,18 +4,26 @@ body {
   }
   
   h1 {
-    text-align: center;
+    /* text-align: center; */
     margin-top: 20px;
-    font-size: 90px;
+    margin-left: 20px;
+    font-size: 70px;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    font-weight: lighter;
+    margin-bottom: -25px;
+  }
+  .tilt h1{
+    transform: rotate(10deg);
   }
   
   h2 {
-    text-align: center;
     margin-top: 20px;
-    font-size: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
     font-weight: lighter;
+    right:0;
+    top:0;
+    position: absolute;
   }
 
   .gallery-container {
@@ -29,8 +37,8 @@ body {
   }
   
   .gallery img {
-    width: 530px;
-    height: 450px;
+    width: 400px;
+    height: 300px;
     margin: 10px;
     cursor: pointer;
     object-fit: cover;
@@ -74,8 +82,6 @@ body {
     opacity: 1;
   }
   
-
-  
   .gallery img.active {
     filter: none;
   }
@@ -97,7 +103,7 @@ body {
   
   .popup-content {
     background-color: #fff;
-    padding: 20px;
+    padding: 50px;
     border-radius: 5px;
     position: relative;
     text-align: center;
@@ -121,4 +127,42 @@ body {
   }
   
  
+  #fruit-name{
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .scroll-container {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  body {
+    margin: 0;
+  }
   
+  .scrolling-text-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+
+  }
+  
+  .scrolling-text {
+    display: inline-block;
+    white-space: nowrap;
+    text-transform: uppercase;
+    position: relative;
+    animation: scroll 5s linear infinite; 
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+ 

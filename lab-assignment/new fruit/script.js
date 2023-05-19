@@ -66,3 +66,14 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(error => console.error('Error fetching fruit data:', error));
 });
+
+const scrollingText = document.querySelector('.scrolling-text');
+const scrollingTextWidth = scrollingText.offsetWidth;
+const containerWidth = scrollingText.parentNode.offsetWidth;
+
+scrollingText.style.width = `${containerWidth}px`;
+scrollingText.style.animationDuration = `${(scrollingTextWidth / 300)}s`;
+
+scrollingText.addEventListener('animationiteration', () => {
+  scrollingText.style.transform = 'translateX(0%)';
+});

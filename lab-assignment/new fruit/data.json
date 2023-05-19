@@ -1,23 +1,18 @@
 {
   "fruits": [
     {
-      "name": "Apple",
-      "color": "Red",
+      "name": "Green Apple",
+      "color": "Green ",
       "size": "Medium",
-      "image": "apple.png"
+      "image": "greenapple.jpeg"
     },
     {
-      "name": "Banana",
+      "name": "Lemon",
+      "image": "lemon.jpeg",
       "color": "Yellow",
-      "size": "Medium",
-      "image": "banana.jpg"
+      "size": "Small"
     },
-    {
-      "name": "Orange",
-      "color": "Orange",
-      "size": "Medium",
-      "image": "orange.jpeg"
-    },
+   
       {
       "name": "Strawberry",
       "color": "Red",
@@ -80,6 +75,12 @@
       "size": "Small"
     },
     {
+      "name": "Orange",
+      "color": "Orange",
+      "size": "Medium",
+      "image": "orange.jpeg"
+    },
+    {
       "name": "Coconut",
       "image": "coconut.jpeg",
       "color": "Brown",
@@ -91,11 +92,13 @@
       "color": "Red",
       "size": "Medium"
     },
+   
+
     {
-      "name": "Lemon",
-      "image": "lemon.jpeg",
+      "name": "Banana",
       "color": "Yellow",
-      "size": "Small"
+      "size": "Medium",
+      "image": "banana.jpg"
     },
     {
       "name": "Cherry",
@@ -108,6 +111,19 @@
       "image": "apricot.jpeg",
       "color": "Orange",
       "size": "Medium"
+    },
+    {
+      "name": "Lychee",
+      "color": "Red",
+      "size": "Small",
+      "image": "lychee.jpeg"
+    },
+    {
+      "name": "Apple",
+      "color": "Red",
+      "size": "Medium",
+      "image": "apple.png"
     }
+   
   ]
 }
