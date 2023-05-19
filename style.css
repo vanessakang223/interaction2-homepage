@@ -2,6 +2,7 @@ body{
     font-family: 'Anton', sans-serif;
     background-color: black;
     margin-top: 3vh;
+    overflow-y: hidden;
 }
 
 .lab-text{
@@ -36,7 +37,7 @@ body{
   width: 612px;
   height: 23px;
   right: 20px;
-  top: 632px;
+  top: 580px;
   font-family:Arial, Helvetica, sans-serif;
   font-size: 10px;
   line-height: 17px;
@@ -50,7 +51,7 @@ body{
   width: 612px;
   height: 23px;
   right: 20px;
-  top: 645px;
+  top: 590px;
   font-family:Arial, Helvetica, sans-serif;
   font-size: 10px;
   line-height: 17px;
@@ -63,7 +64,7 @@ body{
   width: 612px;
   height: 23px;
   right: 20px;
-  top: 658px;
+  top: 600px;
   font-family:Arial, Helvetica, sans-serif;
   font-size: 10px;
   line-height: 17px;
