@@ -77,9 +77,8 @@ a:hover {
     text-decoration: none;
   }
 
-  .tilt{
-    transform: rotate(-20deg);
-    float: right;
+  h1{
+    transform: rotate(-90deg);
   }
 
   .dropbtn {
