@@ -1,35 +1,30 @@
 body{
     font-family: 'Anton', sans-serif;
-    background-color: black;
+    background-color: rgb(254, 252, 245);
     margin-top: 3vh;
     overflow-y: hidden;
 }
 
 .lab-text{
-    color: white;
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     /* font-weight: 700; */
-    font-size: 200px;
+    font-size: 70px;
     line-height: 80px;
     letter-spacing: 0em;
-    margin: 0;
+    margin-top: 70vh;
     margin-left: 2vw;
 }
-
-.studio-text-spacing{
-    color: black;
-    font-family: 'Anton', sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    /* font-weight: 700; */
-    font-size: 200px;
-    line-height: 80px;
-    letter-spacing: 0em;
-    margin: 0;
-    margin-left: 2vw;
-    margin-top: 75vh;
+.studio-text{
+  font-family: 'Anton', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  /* font-weight: 700; */
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: 0em;
+  margin-left: 2vw;
 }
 
 .top-row-text{
@@ -43,8 +38,6 @@ body{
   line-height: 17px;
   text-align: right;
   letter-spacing: 0.1em;
-  color: white;
-
 }
 .middle-row-text{
   position: absolute;
@@ -57,7 +50,6 @@ body{
   line-height: 17px;
   text-align: right;
   letter-spacing: 0.1em;
-  color: white;
 }
 .bottom-row-text{
   position: absolute;
@@ -70,13 +62,12 @@ body{
   line-height: 17px;
   text-align: right;
   letter-spacing: 0.1em;
-  color: white;
 }
 
 a{
     text-decoration: none; 
-    color: white;
     /* position: absolute; */
+    color: black;
 }
 
 a:hover {
