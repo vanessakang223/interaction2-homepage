@@ -182,6 +182,7 @@ base("square")
           drawerContent.classList.remove('is-open')
         })
       });
+      
 
       // To fetch the next page of records, call `fetchNextPage`.
       // If there are more records, `page` will get called again.
@@ -314,6 +315,7 @@ base("square")
           });
         }
 
+
         // now that we have added all of the unique locations to the locations array in the forloop above,
         // we can now loop through the locations array to create each filter
         types.forEach((location) => {
@@ -422,6 +424,17 @@ base("square")
       }
     }
   );
+
+  window.addEventListener("load", function() {
+    // Select all the square thumbnails
+    let squareThumbnails = document.querySelectorAll(".square-thumbnail");
+  
+    // Add the "fade-in" class to each square thumbnail
+    squareThumbnails.forEach(function(squareThumbnail) {
+      squareThumbnail.classList.add("fade-in");
+    });
+  });
+  
 
 
 
